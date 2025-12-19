@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="docteur-service" />
         <module name="notification-service" />
+        <module name="gateway-service" />
         <module name="rdv-service" />
       </profile>
     </annotationProcessing>
@@ -16,6 +18,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="docteur-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="rdv-service" options="-parameters" />
     </option>

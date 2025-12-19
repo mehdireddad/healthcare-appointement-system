@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/docteur-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/docteur-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/notification-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/notification-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rdv-service/src/main/java" charset="UTF-8" />
